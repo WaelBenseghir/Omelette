@@ -243,13 +243,19 @@ tr:last-child td {
 
 @media (min-width: 768px) {
     .container {
-        max-width: 600px;
+        max-width: 700px;
         border-radius: 20px;
         margin: 3em 0;
+
+    }
+
+    .intro {
+        padding: 2em;
     }
 
     img {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
+        border-radius: 15px;
     }
 }
