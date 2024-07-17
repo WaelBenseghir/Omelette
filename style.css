@@ -237,6 +237,10 @@ td {
     border-bottom: 1px solid black;
 }
 
+tr:last-child td {
+    border-bottom: none;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 600px;
